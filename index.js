@@ -37,10 +37,10 @@ function makeMirror (mirror) {
     let ns = spawnSync(now, [dir, '--prod','--confirm'])
     console.log(`now.sh: \n${ns.stderr.toString()}`)
     console.log(`now.sh: \n${ns.stdout.toString()}`)
-/*
+
     rimraf(dir, function () {
       console.log(`${dir} cleaned up`)
-    })*/
+    })
   })
 }
 

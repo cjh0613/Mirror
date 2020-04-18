@@ -29,7 +29,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 
 ## How to use
 
-1. Clone this repo and edit [config.js](config.js) for your proxying configuration.
+1. Install node.js，clone this repo and edit [config.js](config.js) for your proxying configuration.
 
     ```js
     {
@@ -50,7 +50,8 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 > `npm i -g now` `now login [now.email]`
 3. [Optional] Properly configure your custom domain according to [Aliasing a Deployment](https://zeit.co/docs/v2/domains-and-aliases/aliasing-a-deployment/). (Only if you need a custom domain.)
 4. Run `npm i` and then `npm run deploy`.
-手动进入各文件夹上传
+
+~~手动进入各文件夹上传~~（已修复）
 
 See the following log for example:
 
