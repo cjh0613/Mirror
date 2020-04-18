@@ -29,7 +29,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 
 ## How to use
 
-1. Install node.js，clone this repo and edit [config.js](config.js) for your proxying configuration.
+1. Install node.js，clone this repo （`git clone -b dev https://github.com/cjh0613/Mirror.git`）and edit [config.js](config.js) for your proxying configuration.
 
     ```js
     {
