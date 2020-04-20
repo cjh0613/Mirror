@@ -69,6 +69,16 @@ module.exports = {
       'key': 'm-facebook',
       'proxied': 'https://m.facebook.com/',
       'proxying': ''
+    },
+    {
+      'key': 'webcache',
+      'proxied': 'https://webcache.googleusercontent.com/',
+      'proxying': ''
+    },
+    {
+      'key': 'web-archive',
+      'proxied': 'https://web.archive.org/',
+      'proxying': ''
     }
   ]
 }
