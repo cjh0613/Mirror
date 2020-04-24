@@ -1,4 +1,6 @@
 # Mirror v0.0.2
+代理网站一键部署。实测支持访问google系列（包括youtube）、维基百科等，就是服务器在境外，网速不甚令人满意，且无法加载Google搜索流量异常验证码。  它是直接使用 now.sh 提供的服务（无需自建服务器，是【免费】的）来托管一个 Koa 服务端，这个服务端可以实现对单个域名的反向代理，通过脚本批量代理可以代理很多子域名。
+
 原作者https://github.com/upupming/Mirror
 
 > Note: if you have a server and want to implement something like [subs_filter](https://www.nginx.com/resources/wiki/modules/substitutions/) (eg. replace all `google.com` to `google.upupming.site` in web pages.), please consider using [v0.0.1](https://github.com/upupming/Mirror/tree/master). v0.0.1 can also proxy all subdomains of Google, it will be useful if you are a heavy Google user.
